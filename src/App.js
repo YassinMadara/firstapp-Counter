@@ -1,6 +1,6 @@
 import React, {useState, createContext} from 'react';
-import Counter_CC from './Counter_CC'
-import Counter_FC from './Counter_FC'
+import Counter_CC from './CounterCc'
+import Counter_FC from './CounterFc'
 
 export const myContext = createContext()
 
