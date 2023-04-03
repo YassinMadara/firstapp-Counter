@@ -1,7 +1,7 @@
 import React, {useState, useContext} from 'react'
 import { myContext }  from './App'
 
-export default function Counter_FC({initialCount})  {
+export default function CounterFc({initialCount})  {
     const [count, setCount] = useState (initialCount)
     const style = useContext (myContext)
     return (

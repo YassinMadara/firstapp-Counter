@@ -1,6 +1,6 @@
 import React, {useState, createContext} from 'react';
-import Counter_CC from './CounterCc'
-import Counter_FC from './CounterFc'
+import CounterCc from './CounterCc'
+import CounterFc from './CounterFc'
 
 export const myContext = createContext()
 
@@ -31,9 +31,9 @@ function App() {
   return (
     <myContext.Provider value={contextValue} >
       <h1> Class Component </h1>
-      <Counter_CC initialCount={0} />
+      <CounterCc initialCount={0} />
       <h1> Functioncal Component </h1>      
-      <Counter_FC initialCount={10} />
+      <CounterFc initialCount={10} />
       <button onClick={() => toggleColor_normal_Obj()}> Toggle Button Normal Function </button>
       <button onClick={() => toggleColor_arrow_Obj()}> Toggle Button Arrow Function </button>
     </myContext.Provider>

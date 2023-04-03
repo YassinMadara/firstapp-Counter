@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-export default class Counter_CC extends Component {
+export default class CounterCc extends Component {
     constructor(props) {
         super (props)
         this.state = {count: props.initialCount }
